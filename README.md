@@ -18,7 +18,7 @@ Para compilar los ejemplos basta con usar el compilador de c que tenemos instala
 
 ```
     $ cc sum.c -o sum
-    ```
+```
 
 Algunas pruebas para hacer con la consola (código de la clase 1):
 
@@ -28,4 +28,3 @@ $ ./count3 < prueba1.txt
 $ ./sum < prueba2.txt
 5
 ```
-
