@@ -1,0 +1,75 @@
+Programación 2
+Laboratorio
+10 Mar 2014
+Tags: c, shell
+
+* Editores de texto 
+
+- gEdit
+- emacs
+- vim
+- sublimetext
+- nano
+
+ 
+* Primer ejemplo
+
+.code clase1/hello1.c
+
+Como compilarlo?
+
+     $ cc ex0.c -o ex0
+
+Como ejecutarlo?
+
+     $ ./ex0
+     Hola mundo!
+ 
+* Segundo ejemplo
+
+.code clase1/hello2.c
+
+* Tabla de convesión
+
+.code clase1/tabla.txt
+
+* While
+
+.code clase1/farh2cel.c /^int main/,/^}/
+
+* For
+
+.code clase1/farh2cel2.c /^int main/,/^}/
+
+* Const
+
+.code clase1/farh2cel3.c /^#define /,/^}/
+
+
+* Cat (version 1)
+
+.code clase1/cat1.c /^int main/,/^}/
+
+* Cat (version 2)
+
+.code clase1/cat2.c /^int main/,/^}/
+
+* Contar caracteres
+
+.code clase1/count1.c /^int main/,/^}/
+
+* Contar lineas
+
+.code clase1/count2.c /^int main/,/^}/
+
+* Contar palabras
+
+.code clase1/count3.c /^int main/,/^}/ HLinit
+
+* Contar palabras
+
+.code clase1/count3.c /^  while/,/^  }/ HLinit
+
+
+
+
