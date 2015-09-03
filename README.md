@@ -28,3 +28,9 @@ $ ./count3 < prueba1.txt
 $ ./sum < prueba2.txt
 5
 ```
+
+
+## Material adicional
+
+- Manual de C [link](https://drive.google.com/open?id=0BxDZ9NaAkQ9EWXd5bFFKVV94ek0)
+
