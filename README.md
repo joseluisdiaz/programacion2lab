@@ -10,4 +10,25 @@ Para poder ver online las diapositivas, y el código:
 
 ## Practicas
 
+- [Practica 2](https://docs.google.com/document/d/160GeigygYQ2K7zbu3A8r_Ru0cy1Ovtr1FpvxZX6AtwM/edit?usp=sharing)
+
+## Código!
+
+Para compilar los ejemplos basta con usar el compilador de c que tenemos instalado en linux:
+
+```
+    $ cc sum.c -o sum
+    ```
+
+Algunas pruebas para hacer con la consola[^amigos] (código de la clase 1):
+
+```
+$ ./count3 < prueba1.txt
+6 15 18
+$ ./sum < prueba2.txt
+5
+```
+
+
+[^amigos]: esponsorizado por asociación amigos de la consola
 

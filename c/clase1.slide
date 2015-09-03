@@ -55,18 +55,39 @@ Como ejecutarlo?
 
 .code clase1/farh2cel.c /^int main/,/^}/
 
+* While(2)
+
+La sintaxis de while tiene la siguiente forma:
+
+   while (condición) {
+         .. código
+         .. más código
+   }
+
 * For
 
 .code clase1/farh2cel2.c /^int main/,/^}/
+
+* For (2)
+
+La sintaxis de for tiene la siguiente forma:
+
+   for (init ; condición ; incremento) {
+         .. código
+         .. más código
+   }
 
 * Const
 
 .code clase1/farh2cel3.c /^#define /,/^}/
 
-
 * Cat (version 1)
 
 .code clase1/cat1.c /^int main/,/^}/
+
+* getchar()
+
+.image support/getchar.png
 
 * Cat (version 2)
 
@@ -80,6 +101,10 @@ Como ejecutarlo?
 
 .code clase1/count2.c /^int main/,/^}/
 
+* Contar lineas
+
+.image support/asciifull.gif
+
 * Contar palabras
 
 .code clase1/count3.c /^int main/,/^}/ HLinit
@@ -87,6 +112,25 @@ Como ejecutarlo?
 * Contar palabras
 
 .code clase1/count3.c /^  while/,/^  }/ HLinit
+
+* leer enteros... y sumarlos
+
+.code clase1/sum.c /^int main/,/^}/
+
+mas general:
+
+  scanf( FORMATO, arg1, arg2, ... , argn);
+
+igual ocurre con printf:
+
+  printf( FORMATO, arg1, arg2, ... , argn);
+
+ante cualquier duda, consule el manual (man 3 printf, man 3 scanf)
+
+
+
+
+
 
 
 
