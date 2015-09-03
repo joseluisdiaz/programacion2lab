@@ -5,10 +5,10 @@
 
 // cuenta todo! ;)
 int main() {
-  int c, nl, nw, nc, state;  //HLinit
+  int c, nl, nw, nc, state;  // HLinit
 
-  state = OUT; //HLinit
-  nl = nw = nc = 0;  //HLinit
+  state = OUT; // HLinit
+  nl = nw = nc = 0;  // HLinit
 
   while ((c = getchar()) != EOF) {
     nc = nc + 1;
